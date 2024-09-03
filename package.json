@@ -1,0 +1,18 @@
+{
+  "name": "git-commits-excel",
+  "version": "1.0.1",
+  "main": "lib/commitStats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "main": "./bin/main.js"
+  },
+  "author": "Tushar Panchal",
+  "license": "ISC",
+  "description": "A tool for generating CSV files from Git commits.",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "simple-git": "^3.26.0"
+  }
+}
